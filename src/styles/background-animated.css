@@ -1,3 +1,43 @@
+
+/* DETAILS BOX */
+@keyframes flotar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .DETAILS-BOX {
+    animation: flotar 3s ease-in-out infinite;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BACKGROUND ANIMATED */
 @keyframes animate {
     0%{
         transform: translateY(0) rotate(0deg);
